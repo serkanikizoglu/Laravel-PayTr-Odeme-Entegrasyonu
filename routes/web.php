@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
     Route::group(['prefix'=>'odeme'],function (){
-        Route::get('/','OdemeController@index')->name('odeme.index'); // miktar ve müşteri bilgilreini alacağımız  formu getiriyoruz
+        Route::get('/','OdemeController@index')->name('odeme.index'); // miktar ve müşteri bilgilerini alacağımız  formu getiriyoruz
         Route::post('/sonuc','OdemeController@odeme')->name('odeme.sonuc'); //ödeme formunu getiriyoruz.
 
         //Not:
