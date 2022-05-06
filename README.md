@@ -6,7 +6,7 @@ OdemeController.php - web.php - api.php dosyalarını örnekteki gibi oluşturuy
 
 2. Adım
 
-Kullanının bilgilerini ve ödenecek miktar bilgisini alacağımız form sayfamızı getiriyoruz.
+Kullanıcının bilgilerini ve ödenecek miktar bilgisini alacağımız form sayfamızı getiriyoruz.
 
 views/odeme/index.php 
 
